@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 The website link to this project is [https://forbes-angular.netlify.app/](https://forbes-angular.netlify.app/)
 
-This project uses Angular in the front-end and Node.js/MongoDB in the back-end. The Angular client makes use of Components, Interfaces, Services, and Observables. It requests blog data in JSON format from the server and displays them. It shows the user a blog create form and allows the user to send a post request to the server to create a blog. Likewise, it also displays to the user a red x button to remove a blog post from the client, and sends a delete request to the server.
+This project uses Angular in the front-end and Node.js/MongoDB in the back-end. The Angular client makes use of Components, Interfaces, Services, and Observables. It requests blog data in JSON format from the server and displays them in a Masonry Layout (see below for more). It shows the user a blog create form and allows the user to send a post request to the server to create a blog. Likewise, it also displays to the user a red x button to remove a blog post from the client, and sends a delete request to the server.
 
 ## About
 
