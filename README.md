@@ -1,6 +1,7 @@
 # ForbesAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.4.
+The website link to this project is [https://forbes-angular.netlify.app/](https://forbes-angular.netlify.app/)
 
 ## About
 
