@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="share-it">
+        <h1>Got an idea?</h1> <a routerLink="/blogs/new"><button>Share it</button></a>
+    </div>
+
+    <div class="c-multicol">
+        <div *ngFor="let blog of blogs">
+            <app-blog-detail (newItemEvent)="onDeleteBlog($event)" [blog]="blog"></app-blog-detail>
+        </div>
+    </div>
+</div>

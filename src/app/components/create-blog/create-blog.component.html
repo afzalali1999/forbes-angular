@@ -1,0 +1,28 @@
+<div class="container">
+    <h1>Create Blog</h1>
+
+    <form class="card" (ngSubmit)="onSubmit()">
+        <div class="input-group">
+            <label>Title</label>
+            <input name="title" [(ngModel)]="blog.title" placeholder="Add a title to your blog..." autocomplete="off">
+        </div>
+
+        <div class="input-group">
+            <label>Image URL</label>
+            <input name="image" [(ngModel)]="blog.imageUrl" placeholder="Add an url of an image..." autocomplete="off">
+        </div>
+
+        <div class="input-group">
+            <label>Content</label>
+            <textarea name="content" [(ngModel)]="blog.content" placeholder="Write your idea here..." autocomplete="off"></textarea>
+        </div>
+
+        <div class="input-group">
+            <label>Your name</label>
+            <input name="author" [(ngModel)]="blog.author" placeholder="Add your full name..." autocomplete="off">
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+
+</div>

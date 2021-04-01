@@ -1,0 +1,41 @@
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: #2a2e3a;
+    height: 3.5rem;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    overflow: hidden;
+    z-index: 1;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    font-family: serif;
+}
+
+.createBlog {
+    background-color: #23d34f;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    display: flex;
+    align-items: center;
+    padding: 0 1.2rem;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .createBlog {
+        display: none;
+    }
+}

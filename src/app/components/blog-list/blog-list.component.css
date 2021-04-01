@@ -1,0 +1,49 @@
+.container {
+  padding: 5.2rem 2rem;
+  /* margin-top: 4rem; */
+}
+
+.share-it {
+  display: none;
+}
+
+button {
+  width: 7rem;
+  height: 100%;
+  border-radius: 5px;
+  border-style: none;
+  background-color: rgb(74, 132, 238);
+  margin-left: 1rem;
+  cursor: pointer;
+
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (min-width:768px){
+  .c-multicol{
+    gap:2rem;
+    -webkit-column-width:30vw;
+    -moz-column-width:30vw;
+    column-width:30vw;
+  }
+
+  .share-it {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .c-multicol {
+    -webkit-column-width:25vw;
+    -moz-column-width:25vw;
+    column-width:25vw;
+  }
+}
