@@ -9,7 +9,7 @@ import { Blog } from '../interfaces/blog';
   providedIn: 'root'
 })
 export class BlogService {
-  rootUrl: string = '/api';
+  rootUrl: string = 'https://forbes-ali.herokuapp.com/api';
 
   constructor(private http: HttpClient) { }
   

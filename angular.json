@@ -65,13 +65,11 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "forbes-redesign:build",
-            "proxyConfig": "proxy-local.conf.json"
+            "browserTarget": "forbes-redesign:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "forbes-redesign:build:production",
-              "proxyConfig": "proxy-prod.conf.json"
+              "browserTarget": "forbes-redesign:build:production"
             }
           }
         },
