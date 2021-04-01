@@ -4,6 +4,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 The website link to this project is [https://forbes-angular.netlify.app/](https://forbes-angular.netlify.app/)
 
+This project uses Angular in the front-end and Node.js/MongoDB in the back-end. The Angular client makes use of Components, Interfaces, Services, and Observables. It requests blog data in JSON format from the server and displays them. It shows the user a blog create form and allows the user to send a post request to the server to create a blog. Likewise, it also displays to the user a red x button to remove a blog post from the client, and sends a delete request to the server.
+
 ## About
 
 This project was part of my interview with Forbes. I attempted to clone, redesign, and add a new user-generated blog feature to the (cloned) Forbes website to attract and retain more users. This feature kind of mimics Medium's blog posts. I believe that this feature will help bring more users to the Forbes website because the blog content will be generated/created by the community. If this happens, then Forbes can use a recommender system to rank the best blog posts and email recommendations to users. This is powerful as many of the top tech companies today leverage recommender systems to attract and retain users. In addition, the content will be dynamically generated and always keep the user interested, instead of the static website that Forbes displays.
