@@ -15,3 +15,7 @@ I attempted to redesign the blog content by adding a card or shadow css effect b
 ## Masonry Layout
 
 Another aspect of design that I've implemented in this project is the masonry layout. This layout is inspired by [pinterest](https://www.pinterest.com/) and is actually the correct design layout for the user-generated blog feature. Because the blog content is being shown dynamically, masonry grid layout is the best design to keep a user on the site for a longer peroid of time. New content is constantly being shown to the user through the use of Masonry Layout which keeps them hooked onto the platform.
+
+## Mobile Responsive
+
+This app is fully mobile responsive and correctly resizes on large desktops, laptops, tablets, and mobile devices.
